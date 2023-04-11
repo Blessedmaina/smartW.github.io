@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <title>Blessed</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link  href="john.css" rel="stylesheet">
+    </head>
+    <body>
+      <div class="main">
+          <nav>
+             <div class="nav-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="collectors.html">Collectors</a></li>
+                    <li><a href="#">Users</a></li>
+                    <li><a href="#">Admin</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+             </div> 
+          </nav>
+
+          <div class="Homepage">
+              <div id="circle">
+                <div class="Description one">
+                  <img src="smart4.jpg">
+                  <div>
+                     <h3>Smart bins for smart cities</h3>
+                  </div>
+                </div>
+                <div class="Description two">
+                    <img src="smart.jpg">
+                    <div><h3>collector vehicles for maintaining Smart cities</h3></div>
+                  </div>
+                  <div class="Description three">
+                    <img src="sm4.jpg">
+                    <div><h3>Smart bins for litter collection and sending data to the collectors</h3></div>
+                  </div>
+               
+              </div>
+          </div> 
+        <div class="data">
+          <div id="userdata">
+            <h3>Welcome to Meru Smart Waste Company</h3>
+            <img src="sm3.jpg"><br>
+            <p><b>Sign Up</b> or <b>Login</b> to be able to access more features.</p><br>
+           
+              <button onClick="gotoLink(this)" value="signup.html">Sign Up</button>
+              <button onClick="gotoLink(this)" value="signin.html">Sign In</button>
+        </div>
+
+      <script>
+        function gotoLink(link){
+          console.log(link.value);
+          location.href="Homepage.html";
+          location.href=link.value;
+        };
+ 
+      </script>
+    </body>
+
+ </html>
